@@ -1,0 +1,5 @@
+#!/usr/bin/env zsh
+
+zvi() {
+  __zdp_nvim "$@"
+}
