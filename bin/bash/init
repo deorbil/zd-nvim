@@ -6,5 +6,5 @@ __zdp_nvim() {
 
   [[ -d "$dir" ]] || return
 
-  (cd "$dir" && nvim .)
+  (builtin cd -- "$dir" && nvim .)
 }
